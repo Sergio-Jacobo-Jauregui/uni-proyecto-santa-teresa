@@ -1417,6 +1417,11 @@ ul.top_icon li a{ color: #fff;
     right: inherit;
 }
 
+.misionvision {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
 
 ul.locat_icon {
      list-style: none;
