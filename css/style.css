@@ -1454,6 +1454,8 @@ ul.locat_icon li a{
      background-repeat: no-repeat;
      background-position: center center;
      padding: 90px 0px;
+     margin-left: 10px;
+     margin-right: 10px;
 }
  .aboutheading {
     text-align: center;
