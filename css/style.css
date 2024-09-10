@@ -314,6 +314,12 @@
      opacity: 1;
      visibility: visible;
 }
+.imagen-about{
+    width: 100%;
+    height: auto;
+    margin-top: 2px;
+    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.5);
+}
  .top_awro {
      background: #ee4a79 none repeat scroll 0 0;
      cursor: pointer;
@@ -389,10 +395,10 @@ ul.top_icon li a{ color: #fff;
 
 
  .menu-area-main li:hover a, .menu-area-main li:focus a {
-     color: #b32137;
+     color: #f8dfa2;
 }
  .menu-area-main li.active a {
-     color: #b32137;
+     color: #f8dfa2;
 }
  .right_cart_section {
      float: right;
@@ -1508,7 +1514,7 @@ ul.locat_icon li a{
      background-color: #81256c;
 }
 
-.border {border-radius: 30px; border: #81256c solid 2px !important; padding: 40px 40px;} 
+.border {border-radius: 30px; border: #d8af49 solid 2px !important; padding: 40px 40px;} 
 
  .Library {
      background-color: #fff;
@@ -1671,7 +1677,7 @@ border: #fff solid 2px;
 color: #000;
 }
  .footer {
-     background: url(../images/footer-bg.jpg);
+    background-color:#252424;
      padding-bottom: 35px;
      background-size: 100% 100%;
 background-repeat: no-repeat;
@@ -1770,7 +1776,7 @@ ul.location_icon li a{
     margin-bottom: 90px;
 }
  .about-bg {
-    background-color: #b32137;
+    background-color: #f8dfa2;
 
 
 
