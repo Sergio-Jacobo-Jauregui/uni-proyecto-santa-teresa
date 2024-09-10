@@ -1389,6 +1389,12 @@ ul.top_icon li a{ color: #fff;
      text-align: left;
      padding: 0;
 }
+/* .view-inverse {
+    left: 0;
+    right: ;
+    text-align: right;
+} */
+
  .banner-main {
     position: relative;
 }
@@ -1471,7 +1477,8 @@ ul.locat_icon li a{
      padding: 0px 0px 20px 0px;
      font-size: 50px;
      font-weight: bold;
-     color: #b32137;
+     /* color: #b32137; */
+     color: #e9a041;
      line-height: 50px;
 }
 
@@ -1501,7 +1508,8 @@ ul.locat_icon li a{
      width: 200px;
      font-size: 17px;
      padding: 20px 0px;
-     background-color: #81256c;
+     /* background-color: #81256c; */
+     background-color: #d8af49;
      color: #fff;
      display: inline-block;
      line-height: 20px;
@@ -1528,7 +1536,8 @@ ul.locat_icon li a{
      padding: 0px 0px 20px 0px;
      font-size: 50px;
      font-weight: bold;
-     color: #b32137;
+     /* color: #b32137; */
+     color: #e9a041;
      line-height: 50px;
 }
  
@@ -1538,10 +1547,17 @@ ul.locat_icon li a{
      line-height: 32px;
 }
 
-.bg {background-color: #81256c;}
+.bg {
+    /* background-color: #81256c; */
+    background-color: #d8af49;
+}
+
+.custom-bg-dark {
+    background-color: #f5b363;
+}
 
 .Library-box {
-    padding: 20px 0px 10px 0px;
+    padding: 20px 0px 20px 0px;
 }
 .bg .Library-box figure {margin: 0;}
 
@@ -1556,7 +1572,8 @@ ul.locat_icon li a{
      width: 200px;
      font-size: 17px;
      padding: 20px 0px;
-     background-color: #81256c;
+     /* background-color: #81256c; */
+     background-color: #d8af49;
      color: #fff;
      display: inline-block;
      line-height: 20px;
@@ -1580,7 +1597,8 @@ ul.locat_icon li a{
      padding: 0px 0px 20px 0px;
      font-size: 50px;
      font-weight: bold;
-     color: #b32137;
+     /* color: #b32137; */
+     color: #e9a041;
      line-height: 50px;
 }
  
@@ -1660,9 +1678,11 @@ text-align: center;
 }
 .send-btn {
     font-size: 20px;
-    border: #81256c solid 2px;
+    /* border: #81256c solid 2px; */
+    border: #d8af49 solid 2px;
     padding: 7px 69px;
-    background-color: #81256c;
+    /* background-color: #81256c; */
+    background-color: #d8af49;
     color: #fff;
     margin-left: 15px;
     margin-top: 20px;
