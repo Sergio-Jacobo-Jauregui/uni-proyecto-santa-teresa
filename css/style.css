@@ -343,6 +343,33 @@
         margin: 5px 0;
     }
 }
+.enlace-resena {
+    color: #d8af49; /* Color dorado llamativo */
+    font-weight: bold; /* Negrita para resaltar */
+    cursor: pointer; /* Aparece como un enlace */
+    text-decoration: underline; /* Simula un enlace subrayado */
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+/* Estilo para cuando el usuario pasa el ratón */
+.enlace-resena:hover {
+    color: #b8860b; /* Cambia a un tono más oscuro al pasar el mouse */
+    text-decoration: none; /* Quita el subrayado para un efecto visual */
+}
+
+/* Opción para un efecto de botón */
+.enlace-resena {
+    padding: 10px 15px;
+    background-color: #d8af49;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.enlace-resena:hover {
+    background-color: #b8860b;
+}
 .normas-contenedor {
     padding:  50px 0;
     text-align: center;
@@ -417,6 +444,52 @@
 
 .btn-descargar:hover {
     background-color: #0056b3;
+}
+.contenedor-padre {
+    display: flex;
+    flex-direction: column; /* Coloca los elementos en columna */
+    gap: 20px; /* Espacio entre los elementos */
+    padding: 20px;
+}
+
+/* Estilo para el contenedor de los hijos */
+.contenedor-hijos {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Alinea verticalmente los hijos */
+    gap: 20px; /* Espacio entre imagen y texto */
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/* Estilo para la imagen */
+.imagen-hijo {
+    max-width: 100%; /* Hace que la imagen sea responsive */
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Estilo para el bloque de texto junto a la imagen */
+.texto-hijo {
+    max-width: 100%;
+    text-align: justify;
+}
+
+/* Estilo para el texto debajo de la imagen y texto */
+.texto-abajo {
+    text-align: justify; /* Centra el texto */
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+    
+}
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .contenedor-hijos {
+        flex-direction: column; /* Coloca los hijos en columna en pantallas pequeñas */
+        align-items: flex-start; /* Alinea los elementos al inicio */
+    }
 }
  .top_awro {
      background: #ee4a79 none repeat scroll 0 0;
