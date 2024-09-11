@@ -1959,7 +1959,26 @@ margin-top: 90px;
  
 /** slider arrow **/
  
+.custom-slider {
+    width: 90%;
+    padding: 10px 0;
+    overflow-x: hidden;
+}
 
+.custom-slider-track {
+    display: flex;
+    animation: slide 10s linear infinite;
+}
 
+.curso {
+    flex-shrink: 0;
+    width: 460px;
+    max-height: 250px;
+    padding: 0 30px;
+}
 
+.curso img {
+    width: 100%;
+    height: 100%;
+}
 
