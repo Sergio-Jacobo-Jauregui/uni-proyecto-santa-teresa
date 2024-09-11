@@ -315,10 +315,108 @@
      visibility: visible;
 }
 .imagen-about{
-    width: 100%;
+    max-width: 100%;           /* Asegura que la imagen sea flexible */
     height: auto;
     margin-top: 2px;
     box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.5);
+}
+.about-text {
+    display: flex;
+    flex-direction: row;       /* Alinea en fila los elementos hijos */
+    /* flex-wrap: wrap;           Permite el salto de línea si es necesario */
+    justify-content: space-between; /* Distribuye el espacio entre elementos */
+    align-items: center;       /* Alinea verticalmente los elementos */
+    margin-bottom: 50px;
+}
+.about-text div {
+    flex: 1 1 auto;            /* Permite que ambos divs se ajusten al espacio disponible */
+    max-width: 600px;          /* Establece un ancho máximo */
+}
+
+@media (max-width: 600px) {
+    .about-text {
+        flex-direction: column; 
+    }
+    
+    .imagen-about {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
+.normas-contenedor {
+    padding:  50px 0;
+    text-align: center;
+    background: linear-gradient(135deg, #c8c8c5, #dedddb, #f4f4f2);
+}
+
+.normas-titulo h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+.normas-lista {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px; /* Espacio entre las columnas */
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.norma-item {
+    display: flex;
+    align-items: center;
+}
+
+.icono-norma svg {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    fill: #007bff; /* Cambia el color del icono si lo deseas */
+}
+
+.texto-norma {
+    font-size: 18px;
+    color: #333;
+}
+.protocolo-violencia {
+    padding : 50px 0;
+    background: linear-gradient(135deg, #c8c8c5, #dedddb, #f4f4f2);
+    text-align: center;
+   width: 100%;
+}
+
+.protocolo-violencia h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.protocolo-violencia p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 20px;
+}
+
+.btn-descargar {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-descargar:hover {
+    background-color: #0056b3;
 }
  .top_awro {
      background: #ee4a79 none repeat scroll 0 0;
@@ -1465,13 +1563,14 @@ ul.locat_icon li a{
      background-size: 100% 100%;
      background-repeat: no-repeat;
      background-position: center center;
-     padding: 90px 0px;
+     padding: 50px 0px;
      margin-left: 10px;
      margin-right: 10px;
 }
  .aboutheading {
     text-align: center;
-    padding-bottom: 50px;
+    flex: 1 1 300px;           /* Hace que el texto ocupe al menos 300px y crezca si es posible */
+    padding: 20px;
 }
  .aboutheading h2 {
      padding: 0px 0px 20px 0px;
@@ -1615,12 +1714,35 @@ ul.locat_icon li a{
     line-height: 50px;
 }
 
-.mision-vision-container {
+.contenedor-padre {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: row;
+    flex-wrap: wrap; 
+    padding: 10px;
+    gap: 10px;
+}
+
+
+.hijo-1, .hijo-2 {
+    margin: 10px;
+    padding: 20px;
     border-radius: 30px;
-    border: #d8af49 solid 2px !important;
-    padding: 40px 40px;
-    text-align: justify;
+    border: #d8af49 solid 4px !important;
     width: 45%;
+    height: auto;
+}
+
+@media (max-width: 600px) {
+    .contenedor-padre {
+        flex-direction: column; 
+    }
+    
+    .hijo-1, .hijo-2 {
+        width: 100%;
+        margin: 5px 0;
+    }
 }
 
 .Books .book-box figure {margin: 0px;} 
