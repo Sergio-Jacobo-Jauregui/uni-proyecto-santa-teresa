@@ -1959,6 +1959,7 @@ margin-top: 90px;
  
 /** slider arrow **/
  
+/* Estilos del carrusel */
 .custom-slider {
     width: 90%;
     padding: 10px 0;
@@ -1967,7 +1968,7 @@ margin-top: 90px;
 
 .custom-slider-track {
     display: flex;
-    animation: slide 10s linear infinite;
+    animation: slide 30s linear infinite;
 }
 
 .curso {
