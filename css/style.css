@@ -1982,3 +1982,17 @@ margin-top: 90px;
     height: 100%;
 }
 
+.raw-title {
+    padding: 0px 0px 20px 0px;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.mision-vision-container {
+    border-radius: 30px;
+    border: #d8af49 solid 2px !important;
+    padding: 40px 40px;
+    text-align: justify;
+    width: 45%;
+}
