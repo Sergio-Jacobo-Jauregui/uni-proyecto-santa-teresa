@@ -344,7 +344,7 @@
     }
 }
 .enlace-resena {
-    color: #d8af49; /* Color dorado llamativo */
+    color: #dacba7; /* Color dorado llamativo */
     font-weight: bold; /* Negrita para resaltar */
     cursor: pointer; /* Aparece como un enlace */
     text-decoration: underline; /* Simula un enlace subrayado */
@@ -353,7 +353,7 @@
 
 /* Estilo para cuando el usuario pasa el ratón */
 .enlace-resena:hover {
-    color: #b8860b; /* Cambia a un tono más oscuro al pasar el mouse */
+    color: #ddc488;; /* Cambia a un tono más oscuro al pasar el mouse */
     text-decoration: none; /* Quita el subrayado para un efecto visual */
 }
 
@@ -368,18 +368,35 @@
 }
 
 .enlace-resena:hover {
-    background-color: #b8860b;
+    background-color: #e9cf8e;
 }
 .normas-contenedor {
-    padding:  50px 0;
+    padding:  80px 0;
     text-align: center;
-    background: linear-gradient(135deg, #c8c8c5, #dedddb, #f4f4f2);
+    background-image: url(../images/nuestras_fotos/fotosCam/niños_clases.jpg);
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.fondo_contact {
+    padding:  80px 0;
+    text-align: center;
+    background-image: url(../images/nuestras_fotos/fotosCam/niños_clases.jpg);
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 .normas-titulo h2 {
-    font-size: 28px;
+    font-size: 270%;
     font-weight: bold;
     margin-bottom: 60px;
+}
+.reseña_enlace{
+    padding: 70px;
+    text-align: center;
+    font-size: 150%;
+    color: #000000
 }
 
 .normas-lista {
@@ -394,6 +411,11 @@
 .norma-item {
     display: flex;
     align-items: center;
+    background-color: hsl(60, 100%, 98%);
+    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 15px
+
 }
 
 .icono-norma svg {
@@ -409,13 +431,16 @@
 }
 .protocolo-violencia {
     padding : 50px 0;
-    background: linear-gradient(135deg, #c8c8c5, #dedddb, #f4f4f2);
+    background-image: url(../images/nuestras_fotos/fotosCam/prevencion_violencia.jpg);
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat;
     text-align: center;
    width: 100%;
 }
 
 .protocolo-violencia h3 {
-    font-size: 24px;
+    font-size: 270%;
     font-weight: bold;
     margin-bottom: 20px;
     color: #333;
@@ -423,16 +448,19 @@
 
 .protocolo-violencia p {
     font-size: 18px;
-    color: #555;
     line-height: 1.6;
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-bottom: 20px;
+    padding: 50px;
+    color:#000;
+    background-color: hsl(60, 100%, 98%);
+    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    margin-left:300px;
+    margin-right: 300px;
 }
 
 .btn-descargar {
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 50px;
     padding: 10px 20px;
     background-color: #007bff;
     color: #fff;
@@ -445,7 +473,17 @@
 .btn-descargar:hover {
     background-color: #0056b3;
 }
+.contenedor-padre-about {
+    display: flex;
+    flex-direction: row; /* Coloca los elementos en columna */
+    gap: 20px; /* Espacio entre los elementos */
+    padding: 20px;
+}
 .contenedor-padre {
+    background-image: url(../images/nuestras_fotos/fotosCam/fondo_reseña.jpg);
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column; /* Coloca los elementos en columna */
     gap: 20px; /* Espacio entre los elementos */
@@ -473,6 +511,7 @@
 .texto-hijo {
     max-width: 100%;
     text-align: justify;
+    color:#000
 }
 
 /* Estilo para el texto debajo de la imagen y texto */
@@ -481,6 +520,7 @@
     margin-left: 20%;
     margin-right: 20%;
     margin-bottom: 10%;
+        color:#000
     
 }
 
@@ -1697,7 +1737,7 @@ ul.locat_icon li a{
 .border {border-radius: 30px; border: #d8af49 solid 2px !important; padding: 40px 40px;} 
 
  .Library {
-     background-color: #fff;
+    background: linear-gradient(135deg, #e7e7e6, #dedddb, #f4f4f2);
      padding: 90px 0px;
 }
  .Library .titlepage {
@@ -1715,7 +1755,7 @@ ul.locat_icon li a{
  
  .Library .titlepage span {
     color:#141012; 
-     font-size: 17px;
+     font-size: 25px;
      line-height: 32px;
 }
 
@@ -1797,14 +1837,21 @@ ul.locat_icon li a{
     gap: 10px;
 }
 
+@media (max-width: 600px) {
+    .contenedor-padre-about {
+        flex-direction: column; 
+    }
+   
+}
 
 .hijo-1, .hijo-2 {
     margin: 10px;
-    padding: 20px;
+    padding: 30px;
     border-radius: 30px;
     border: #d8af49 solid 4px !important;
-    width: 45%;
-    height: auto;
+    width: 43%;
+    height: auto ; 
+    color:#000;
 }
 
 @media (max-width: 600px) {
