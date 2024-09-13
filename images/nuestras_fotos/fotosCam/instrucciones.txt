@@ -7,3 +7,8 @@ en la pagina se uso la foto:
 --> ejempplo
 IMG_2521.JPG
 --> ejemplo
+
+segundo slider en infraestructura.html:
+IMG_2613.JPG
+IMG_2687.JPG
+IMG_2692.JPG
