@@ -1,12 +1,12 @@
 .titulo_infraestructura{
-    font-size: 22px;
+    font-size: 35px;
     color: black;
     font-weight: bold;
     display: flex;
     justify-content: center;
  }
  .texto_infraestructura{
-    font-size: 16px;
+    font-size: 20px;
     color: black;
     display: flex;
     justify-content: center;
