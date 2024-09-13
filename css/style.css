@@ -1804,7 +1804,9 @@ ul.locat_icon li a{
 
 .read-more a:hover {background-color:  #000;}
 
-
+.ubicacion {
+    margin: 0 auto; display: flex; justify-content: center;max-width: 70% ; margin-top: 20px; margin-bottom: 50px;
+}
 .box {display: flex; align-items: center; flex-wrap: wrap; text-align: center;}
 .Books {
      background-color: #fff;
