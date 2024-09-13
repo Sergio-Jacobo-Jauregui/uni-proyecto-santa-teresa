@@ -1,1 +1,2 @@
-./images/nuestras_fotos/fotografias/
+/images/nuestras_fotos/fotosCam/*
+!/images/nuestras_fotos/fotosCam/*.txt
