@@ -1,0 +1,24 @@
+table, td, th {
+    border: none;
+ }
+ 
+ table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 10px auto 20px auto;
+ }
+ h2 { 
+    color: #ffffff;
+ }
+ th, td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 6px; 
+    color: black;
+ }
+ 
+
+ th {
+    height: 60px; 
+    background-color: #d8af49;
+ }
