@@ -3,7 +3,7 @@ window.addEventListener('load', () => {
     const amountImages = customSliderTrack.children.length
     const firstImage = customSliderTrack.firstElementChild
     const widthImage = firstImage.offsetWidth    
-    
+
     const style = document.createElement('style');
     const css = `
         @keyframes slide {
