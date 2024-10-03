@@ -395,7 +395,7 @@
 .reseña_enlace{
     padding: 70px;
     text-align: center;
-    font-size: 150%;
+    font-size: 130%;
     color: #000000
 }
 
@@ -426,9 +426,49 @@
 }
 
 .texto-norma {
-    font-size: 18px;
+    font-size: 17px;
     color: #333;
 }
+
+/*Media para hacer responsivos a los contenedores de las normas de convivencia*/
+@media (max-width: 1200px) {
+    .normas-lista {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .normas-lista {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .texto-norma {
+        font-size: 16px;
+    }
+    
+    .icono-norma svg {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    .normas-lista {
+        gap: 10px;
+    }
+
+    .texto-norma {
+        font-size: 14px;
+    }
+    
+    .icono-norma svg {
+        width: 20px;
+        height: 20px;
+    }
+}
+
 .protocolo-violencia {
     padding : 50px 0;
     background-image: url(../images/nuestras_fotos/fotosCam/prevencion_violencia.jpg);
@@ -447,15 +487,24 @@
 }
 
 .protocolo-violencia p {
-    font-size: 18px;
+    font-size: 17px;
     line-height: 1.6;
     padding: 50px;
     color:#000;
     background-color: hsl(60, 100%, 98%);
     box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
-    margin-left:300px;
-    margin-right: 300px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/*Media para hacer responsivo al párrafo de Protocolo para Prevenir y Atender la Violencia*/
+@media (max-width: 768px) {
+    .protocolo-violencia p {
+        font-size: 16px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
 }
 
 .btn-descargar {
@@ -498,6 +547,7 @@
     gap: 20px; /* Espacio entre imagen y texto */
     margin-left: 20%;
     margin-right: 20%;
+    margin-top: 80px;
 }
 
 /* Estilo para la imagen */
@@ -511,7 +561,7 @@
 .texto-hijo {
     max-width: 100%;
     text-align: justify;
-    color:#000
+    color:#000;
 }
 
 /* Estilo para el texto debajo de la imagen y texto */
@@ -519,9 +569,8 @@
     text-align: justify; /* Centra el texto */
     margin-left: 20%;
     margin-right: 20%;
-    margin-bottom: 10%;
-        color:#000
-    
+    color:#000;
+    margin-bottom: 80px;
 }
 
 /* Media query para pantallas más pequeñas */
@@ -1686,8 +1735,6 @@ ul.locat_icon li a{
      background-repeat: no-repeat;
      background-position: center center;
      padding: 50px 0px;
-     margin-left: 10px;
-     margin-right: 10px;
 }
  .aboutheading {
     text-align: center;
