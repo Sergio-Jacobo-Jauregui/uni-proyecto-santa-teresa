@@ -9,7 +9,7 @@ IMG_2521.JPG
 --> ejemplo
 
 <<<<<<< HEAD
-segundo slider en infraestructura.html:
+tercer slider en infraestructura.html:
 IMG_2613.JPG
 IMG_2687.JPG
 IMG_2692.JPG
@@ -24,3 +24,10 @@ IMG_2587.JPG
 IMG_2564.JPG
 IMG_2540.JPG
 >>>>>>> c26595f (Cambios en en el index etc)
+
+primer slider en infraestructura.html:
+IMG_2750.JPG
+
+segundo slider en infraestructura.html ("Taller de cómputo:"):
+IMG_2749.JPG
+IMG_2748.JPG
