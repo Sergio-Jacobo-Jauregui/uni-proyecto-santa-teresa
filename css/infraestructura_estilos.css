@@ -6,10 +6,11 @@
     justify-content: center;
  }
  .texto_infraestructura{
-    font-size: 20px;
+    font-size: 150%;
     color: black;
     display: flex;
     justify-content: center;
+    text-align: center; /* Centra el texto dentro del span */
  }
  
  /* sliders*/
@@ -21,7 +22,7 @@
     box-sizing: border-box;
  }
 
- #myCarousel_infraestructura_1, #myCarousel_infraestructura_2, #myCarousel_infraestructura_3 {
+ #myCarousel_infraestructura_1, #myCarousel_infraestructura_2, #myCarousel_infraestructura_3, #myCarousel_infraestructura_4 {
     width: 60%;
     box-sizing: border-box; 
  }
@@ -37,14 +38,14 @@
 
  /* sliders en moviles */
  @media (max-width: 768px) {
-    #myCarousel_infraestructura_1, #myCarousel_infraestructura_2, #myCarousel_infraestructura_3 {
+    #myCarousel_infraestructura_1, #myCarousel_infraestructura_2, #myCarousel_infraestructura_3, #myCarousel_infraestructura_4{
        width: 80%; 
        border-width: 30px; 
     }
  }
 
  @media (max-width: 480px) {
-    #myCarousel_infraestructura_1, #myCarousel_infraestructura_2, #myCarousel_infraestructura_3 {
+    #myCarousel_infraestructura_1, #myCarousel_infraestructura_2, #myCarousel_infraestructura_3, #myCarousel_infraestructura_4 {
        width: 90%; 
        border-width: 20px; 
     }
