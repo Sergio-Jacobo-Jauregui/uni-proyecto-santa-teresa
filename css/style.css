@@ -886,6 +886,31 @@ ul.top_icon li a{ color: #fff;
  .btn-template-outlined i {
      padding-right: 10px;
 }
+ .btn-wsp{ 
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background-color: #0df053;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+ }
+ .btn-fb{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 100px;
+    right: 30px;
+    background-color: #139df8;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+ }
+
  .text-muted {
      padding: 10px 0px;
 }
@@ -1239,7 +1264,7 @@ ul.top_icon li a{ color: #fff;
      display: inline-block;
      vertical-align: middle;
 }
- .main-menu ul>li:nth-child (6) {
+ .main-menu ul>li:nth-child (5) {
      padding-right: 0px;
 }
  .nav>li {
@@ -2010,6 +2035,8 @@ border: #fff solid 2px;
 
 color: #000;
 }
+
+
  .footer {
     background-color:#252424;
      padding-bottom: 35px;
@@ -2028,11 +2055,11 @@ background-position: center center;
      font-size: 25px;
      line-height: 30px;
      font-weight: 600;
-border-bottom: #fff solid 1px;
+    border-bottom: #fff solid 1px;
     border-bottom-width: 1px;
-border-width: 1px;
-display: inline-block;
-padding-bottom: 2px;}
+    border-width: 1px;
+    display: inline-block;
+    padding-bottom: 2px;}
  .coa {
     color: #12dc12;
 }
@@ -2047,22 +2074,20 @@ padding-bottom: 2px;}
         padding-left: 26px;
     border: #fff solid 1px;
     width: 77%;
-
-
  }
 
 .footer .Subscribe {
-
     padding: 10px 46px;
 margin-left: -3px;
 border: #0e0c0c solid 1px;
 background: #0e0c0c;
 color: #fff;
-
 }
+
  .pdn-top-30 {
     padding-top: 35px;
 }
+
  ul.location_icon {
      list-style: none;
      margin: 0;
