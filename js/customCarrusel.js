@@ -1,3 +1,4 @@
+// comentario cualquiera 
 window.addEventListener('load', () => {
     const customSliderTrack = document.getElementById("custom-slider-track")
     const amountImages = customSliderTrack.children.length
